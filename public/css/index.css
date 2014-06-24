@@ -1,0 +1,129 @@
+/*
+File : index.css
+Author : ibm   Email: zhangbobell@163.com
+createTime : 2013-12-30
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background-image: url(../images/index_bg.jpg);
+}
+.content{
+    width: 100%;
+}
+.form-control{
+    width: 200px;
+    padding: 6px 12px;
+    height: 21px;
+    display: block;
+    line-height: 1.428571429;
+    border: 1px solid #ccc;
+    font-family: verdana;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.login-form{
+    width: 300px;
+    height: 410px;
+    padding: 13px 14px 15px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+.login-btn{
+    width:226px;
+    height:36px;
+    border:none;
+    margin:15px auto;
+    background-color: #3399ff;
+    display: block;
+    font-family: "黑体";
+    font-size:15px;
+    line-height: 36px;
+    color: #fff;
+}
+.login-btn:hover{
+    background-color: #32c6f0;
+}
+.login-btn:active{
+    background-color: #0066ff;
+}
+.form-title{
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 24px;
+    font-family: "黑体";
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    margin: 5px auto;
+}
+.captcha{
+    width: 226px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+#captcha-image img{
+    vertical-align: middle;
+}
+
+#captcha-image{
+    display: inline;
+}
+
+#reload-captcha:link{
+    color: #fff;
+    text-decoration: none;    
+}
+#login_info{
+    background-color: #FF606C;
+    color:#000;
+    text-align:center;
+    width: 226px;
+    line-height:40px;
+    margin:15px auto;
+}
+.icon-sign-error{
+	display: inline-block;
+	vertical-align: -3px;
+	background-image:url(../images/signup-error.png);
+	background-position: -52px 0;
+	height:16px;
+	width:16px;
+	margin-right:8px;
+}
+#submit{
+    cursor: pointer;
+}
+.logout-info
+{
+    width: 300px;
+    height: 340px;
+    padding: 13px 14px 15px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 20px;
+    font-family: "微软雅黑","黑体";
+}
+.update
+{
+    line-height: 18px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    list-style-position: inside;
+}

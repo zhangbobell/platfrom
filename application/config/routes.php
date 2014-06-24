@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "clogin/index";
 $route['404_override'] = '';
 
 
